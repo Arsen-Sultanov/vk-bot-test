@@ -1,0 +1,25 @@
+{
+  "name": "vk-bot-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js --ignore-path .gitignore --fix"
+  },
+  "author": "Arsen Sultanov",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "mongoose": "^5.9.26",
+    "node-vk-bot-api": "^3.3.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
